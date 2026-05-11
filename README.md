@@ -1,3 +1,6 @@
+| :exclamation:   Needs a MASSIVE overhaul     |
+|----------------------------------------------|
+
 # ESP32 HAM CLOCK / DX Cluster (EN)
 
 ESP32 HAM CLOCK is a clock and DX Cluster terminal for the ESP32-2432S028 (CYD) module with a 2.4" touch TFT. It connects to DX Cluster (telnet), POTA (API), APRS-IS, pulls weather and solar/propagation data, and exposes both a TFT UI and a web UI (TFT emulation). Touch is used for navigation, filters, brightness menu, and calibration. Settings are stored in NVS; LittleFS holds fonts and web assets; `User_Setup.h` is copied into TFT_eSPI before build.
